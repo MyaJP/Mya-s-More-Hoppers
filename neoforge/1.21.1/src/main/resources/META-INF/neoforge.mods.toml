@@ -1,0 +1,27 @@
+modLoader = "javafml"
+loaderVersion = "[1,)"
+license = "MIT"
+
+[[mods]]
+modId = "morehoppers"
+version = "${version}"
+displayName = "More Hoppers"
+authors = "Mya"
+description = '''
+ホッパーに金・ダイヤモンド・エメラルド・ネザライトのランクを追加します。上のランクほど速く、たくさん運び、たくさん入ります。
+Adds Gold, Diamond, Emerald and Netherite hoppers. Higher tiers move items faster, move more at once, and hold more.
+'''
+
+[[dependencies.morehoppers]]
+modId = "neoforge"
+type = "required"
+versionRange = "[21.1.262,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.morehoppers]]
+modId = "minecraft"
+type = "required"
+versionRange = "[${mc}]"
+ordering = "NONE"
+side = "BOTH"

@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "morehoppers:gold_hopper",
+    "morehoppers:diamond_hopper",
+    "morehoppers:emerald_hopper",
+    "morehoppers:netherite_hopper"
+  ]
+}

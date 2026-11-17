@@ -1,0 +1,9 @@
+{
+  "tooltip.morehoppers.cooldown": "Transfer interval: %s ticks",
+  "tooltip.morehoppers.per_transfer": "Items per transfer: %s",
+  "tooltip.morehoppers.slots": "Slots: %s",
+  "block.morehoppers.gold_hopper": "Gold Hopper",
+  "block.morehoppers.diamond_hopper": "Diamond Hopper",
+  "block.morehoppers.emerald_hopper": "Emerald Hopper",
+  "block.morehoppers.netherite_hopper": "Netherite Hopper"
+}

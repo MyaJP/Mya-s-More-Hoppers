@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "pattern": [
+    "# #",
+    "#H#",
+    " # "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:netherite_ingot"
+    },
+    "H": {
+      "item": "morehoppers:emerald_hopper"
+    }
+  },
+  "result": {
+    "id": "morehoppers:netherite_hopper",
+    "count": 1
+  }
+}

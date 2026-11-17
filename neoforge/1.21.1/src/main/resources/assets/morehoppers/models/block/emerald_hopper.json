@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:block/hopper",
+  "textures": {
+    "particle": "morehoppers:block/emerald_hopper_outside",
+    "top": "morehoppers:block/emerald_hopper_top",
+    "side": "morehoppers:block/emerald_hopper_outside",
+    "inside": "morehoppers:block/emerald_hopper_inside"
+  }
+}

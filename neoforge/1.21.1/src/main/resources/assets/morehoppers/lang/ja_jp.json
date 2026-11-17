@@ -1,0 +1,9 @@
+{
+  "tooltip.morehoppers.cooldown": "運ぶ間隔: %s tick",
+  "tooltip.morehoppers.per_transfer": "1回に運ぶ数: %s個",
+  "tooltip.morehoppers.slots": "スロット: %s",
+  "block.morehoppers.gold_hopper": "金のホッパー",
+  "block.morehoppers.diamond_hopper": "ダイヤモンドのホッパー",
+  "block.morehoppers.emerald_hopper": "エメラルドのホッパー",
+  "block.morehoppers.netherite_hopper": "ネザライトのホッパー"
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "pattern": [
+    "# #",
+    "#H#",
+    " # "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:emerald"
+    },
+    "H": {
+      "item": "morehoppers:diamond_hopper"
+    }
+  },
+  "result": {
+    "id": "morehoppers:emerald_hopper",
+    "count": 1
+  }
+}
