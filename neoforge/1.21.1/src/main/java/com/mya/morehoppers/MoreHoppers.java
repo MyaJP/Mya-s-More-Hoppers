@@ -23,7 +23,7 @@ public class MoreHoppers {
    }
 
    private void registerCapabilities(RegisterCapabilitiesEvent event) {
-      event.registerBlockEntity(ItemHandler.BLOCK, (BlockEntityType)ModBlockEntities.TIERED_HOPPER.get(), (hopper, side) -> new InvWrapper(hopper));
+      event.registerBlockEntity(ItemHandler.BLOCK, ModBlockEntities.TIERED_HOPPER.get(), (hopper, side) -> new InvWrapper(hopper));
    }
 
    private void addCreative(BuildCreativeModeTabContentsEvent event) {

@@ -29,8 +29,9 @@ public class TieredHopperBlock extends HopperBlock {
       this.tier = tier;
    }
 
-   public MapCodec<? extends HopperBlock> codec() {
-      return CODEC;
+   @SuppressWarnings("unchecked")
+   public MapCodec<HopperBlock> codec() {
+      return (MapCodec<HopperBlock>) (MapCodec<?>) CODEC;
    }
 
    public BlockEntity newBlockEntity(BlockPos pos, BlockState state) {
